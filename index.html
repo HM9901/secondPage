@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/8973f61f8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reponsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header-top fixed-top row">
+                <div class="header-left col-sm-6">
+                    <img src="./img/Subtract.png" alt="TripGuide" class="header-logo">
+                    <span>TripGuide</span>
+                </div>
+                <div class="header-right col-sm-6">
+                    <span class="header-currency">USD</span>
+                    <img src="./img/flag-of-the-united-states-computer-icons-usa-gerb-24f7b05b1b2bdd5109fe660fbe8a9c83 1.png"
+                        alt="" class="header-language">
+                    <div class="header-notify">
+                        <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.9981 15.0004H3.99802V8.50017C3.99802 6.00007 5.99803 4 8.49805 4C10.9981 4 12.9981 6.00007 12.9981 8.50017V15.0004ZM15 14.0005V8.50031C15 5.4302 12.86 2.86011 10 2.18008V1.50006C10 0.671598 9.32843 0 8.5 0C7.67157 0 7 0.671598 7 1.50006V2.18008C4.13 2.86011 2 5.4302 2 8.50031V14.0005L0 16.0006V17.0006H17V16.0006L15 14.0005ZM8.49994 20.0001C9.6045 20.0001 10.4999 19.1046 10.4999 18H6.49996C6.49996 19.1046 7.39538 20.0001 8.49994 20.0001Z"
+                                fill="#84878B" />
+                        </svg>
+                        <span>1</span>
+                    </div>
+                    <div class="header-profile">
+                        <img src="./img/avatar.png" alt="" class="header-avatar">
+                        <span class="header-name">Delowar</span>
+                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.93248 0C9.3564 0 9.58798 0.494429 9.31659 0.820092L5.38411 5.53907C5.18421 5.77894 4.81579 5.77894 4.61589 5.53907L0.68341 0.820091C0.412024 0.494428 0.643601 0 1.06752 0L8.93248 0Z"
+                                fill="#3B3E44" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="slider d-flex align-items-center text-center">
+            <div class="container">
+                <div class="row">
+                    <h2 class="slider-title col-lg-5 col-sm-12">Book With Us
+                        And Enjoy your Journey !
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="search-bar row bg-white">
+                        <div class="search-bar-opt  col-lg-10">
+                            <div class="search-bar-top row">
+                                <div class="search-bar-top-left d-flex col-lg-5 col-sm-12 justify-content-between">
+                                    <div class="search-bar-section">
+                                        <i class="fa-solid fa-bed"></i>
+                                        <span>Hotel</span>
+                                    </div>
+                                    <div class="search-bar-section">
+                                        <i class="fa-solid fa-plane-departure"></i>
+                                        <span>Flight</span>
+                                    </div>
+                                    <div class="search-bar-section">
+                                        <i class="fa-solid fa-car"></i>
+                                        <span>Car Rental</span>
+                                    </div>
+                                </div>
+                                <div class="search-bar-top-right d-flex col-lg-7 col-sm-12">
+                                    <div class="search-bar-top-right-sec">
+                                        <span>Round trip</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                    <div class="search-bar-top-right-sec">
+                                        <span>1 passenger</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-bar-bottom row">
+                                <div class="col-lg-6 col-sm-12">
+                                    <div class="search-bar-bottom-sec">
+                                        <label for="" class="search-bar-label">Location</label>
+                                        <input type="text" placeholder="Where are you from?">
+                                    </div>
+                                    <div class="search-bar-label-icon">
+                                        <img src="./img/Vector.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="search-bar-bottom-sec">
+                                        <label for="" class="search-bar-label">Check in</label>
+                                        <input type="text" placeholder="Add Date">
+                                    </div>
+                                    <div class="search-bar-label-icon" style="right: 37.5%">
+                                        <img src="./img/Vector.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="search-bar-bottom-sec">
+                                        <label for="" class="search-bar-label">Check out</label>
+                                        <input type="text" placeholder="Add date">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="search-bar-bottom-sec hidden">
+                                        <label for="" class="search-bar-label">Passenger</label>
+                                        <input type="text" placeholder="Add Passenger">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-bar-opt  flex-grow-0 col-lg-2">
+                            <buttton class="search-bar-btn">Search</buttton>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="place">
+                    <div class="place-header row">
+                        <h2 class="place-title col-sm-12">
+                            Search a best place in the world
+                        </h2>
+                        <p class="place-description col-lg-6 offset-lg-3 col-sm-12">
+                            Whether you’re looking for places for a vacation. We are here to Guide you
+                            about the details you need to check in and ease your trips in advance
+                        </p>
+                    </div>
+                    <div class="place-list row ">
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/mahmud-ahsan-QqPcxfFKqfU-unsplash.png" alt="" class="place-img">
+                                <h6 class="place-name">Batu, East Java</h6>
+                                <p class="place-destination">86 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/michael-discenza-5omwAMDxmkU-unsplash 1 (1).png" alt=""
+                                    class="place-img">
+                                <h6 class="place-name">Kuta</h6>
+                                <p class="place-destination">86 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/search3.png" alt="" class="place-img">
+                                <h6 class="place-name">Surabaya, East Java</h6>
+                                <p class="place-destination">86 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/frenky-harry-_9ExPfUFWHM-unsplash.png" alt="" class="place-img">
+                                <h6 class="place-name">Malang, East Java</h6>
+                                <p class="place-destination">186 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/frenky-harry-_9ExPfUFWHM-unsplash.png" alt="" class="place-img">
+                                <h6 class="place-name">Dieng, Central Java</h6>
+                                <p class="place-destination">86 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/search7.png" alt="" class="place-img">
+                                <h6 class="place-name">Nusa Dua, Lombok</h6>
+                                <p class="place-destination">86 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img//michael-discenza-5omwAMDxmkU-unsplash 1 (1).png" alt=""
+                                    class="place-img">
+                                <h6 class="place-name">Bandung, West Java</h6>
+                                <p class="place-destination">186 Destinations</p>
+                            </div>
+                            <div class="place-item col-3 col-sm-6">
+                                <img src="/img/mahmud-ahsan-QqPcxfFKqfU-unsplash.png" alt="" class="place-img">
+                                <h6 class="place-name">Wakatobi, Sumatera</h6>
+                                <p class="place-destination">186 Destinations</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="Feature">
+                    <div class="Feature-header">
+                        <div class="Feature-header-title">Featured Destinations</div>
+                        <div class="Feature-header-description">Popular destinations open to visitors from Indonesia
+                        </div>
+                    </div>
+                    <div class="Feature-body">
+                        <div class="row">
+                            <div class="col-lg-9 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-12">
+                                        <div class="Feature-body-item">
+                                            <img  src="/img/feature1.png" alt="" class="Feature-body-item-img">
+                                            <div class="Feature-body-mark">
+                                                <span>3.5</span>
+                                            </div>
+                                            <div class="Feature-body-detail">
+                                                <div class="Feature-body-name">Barcelona Tour</div>
+                                                <div class="Feature-body-acty">
+                                                    <div class="Feature-body-acty-img">
+                                                        <img src="/img/feartureava1.png" alt="">
+                                                    </div>
+                                                    <span class="Feature-body-actives">196 Activities</span>
+                                                </div>  
+                                            </div>
+                                        </div>  
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="Feature-body-item" style="display: block; margin-top: 30px;">
+                                            <img  src="/img/feature2.png" alt="" class="Feature-body-item-img">
+                                            <div class="Feature-body-mark">
+                                                <span>3.5</span>
+                                            </div>
+                                            <div class="Feature-body-detail">
+                                                <div class="Feature-body-name" style="font-size: 30px;padding-bottom: 10px;">LonDon, United State</div>
+                                                <div class="Feature-body-acty">
+                                                    <div class="Feature-body-acty-img">
+                                                        <img src="/img/feartureava2.png" alt="">
+                                                    </div>
+                                                    <span class="Feature-body-actives">196 Activities</span>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <div class="Feature-body-item" style="display: block; margin: 30px 0;" >
+                                            <img  src="/img/feature3.png" alt="" class="Feature-body-item-img">
+                                            <div class="Feature-body-mark">
+                                                <span>3.5</span>
+                                            </div>
+                                            <div class="Feature-body-detail">
+                                                <div class="Feature-body-name" style="font-size: 30px;padding-bottom: 10px;">Australia Tour</div>
+                                                <div class="Feature-body-acty">
+                                                    <div class="Feature-body-acty-img">
+                                                        <img src="/img/feartureava2.png" alt="">
+                                                    </div>
+                                                    <span class="Feature-body-actives">196 Activities</span>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12">
+                                <div class="col-lg-12 col-sm-12">
+                                    <div class="Feature-body-item">
+                                        <img  src="/img/feature4.png" alt="" class="Feature-body-item-img">
+                                        <div class="Feature-body-mark">
+                                            <span>3.5</span>
+                                        </div>
+                                        <div class="Feature-body-detail">
+                                            <div class="Feature-body-name" style="font-size: 20px;padding-bottom: 5px;">Australia Tour</div>
+                                            <div class="Feature-body-acty">
+                                                <div class="Feature-body-acty-img">
+                                                    <img src="/img/feartureava2.png" alt="">
+                                                </div>
+                                                <span class="Feature-body-actives">196 Activities</span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12">
+                                    <div class="Feature-body-item" style="display: block; margin: 30px 0">
+                                        <img  src="/img/feature5.png" alt="" class="Feature-body-item-img">
+                                        <div class="Feature-body-mark">
+                                            <span>3.5</span>
+                                        </div>
+                                        <div class="Feature-body-detail">
+                                            <div class="Feature-body-name" style="font-size: 20px;padding-bottom: 5px;">Japan Tour</div>
+                                            <div class="Feature-body-acty">
+                                                <div class="Feature-body-acty-img">
+                                                    <img src="/img/feartureava2.png" alt="">
+                                                </div>
+                                                <span class="Feature-body-actives">196 Activities</span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-12">
+                                    <div class="Feature-body-item">
+                                        <img  src="/img/feature6.png" alt="" class="Feature-body-item-img">
+                                        <div class="Feature-body-mark">
+                                            <span>3.5</span>
+                                        </div>
+                                        <div class="Feature-body-detail">
+                                            <div class="Feature-body-name" style="font-size: 20px;padding-bottom: 5px;">Japan Tour</div>
+                                            <div class="Feature-body-acty">
+                                                <div class="Feature-body-acty-img">
+                                                    <img src="/img/feartureava2.png" alt="">
+                                                </div>
+                                                <span class="Feature-body-actives">196 Activities</span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="TopTour">
+                    <div class="TopTour-header">
+                        <div class="TopTour-heading">Top Tour</div>
+                        <div class="TopTour-sub-heading">Keep calm & travel on</div>
+                    </div>
+                    <div class="TopTour-body">
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Japan</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Japan</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Indonesia</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour1.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Bali</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Barcelona</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Spain</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Indonesia</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour1.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Bali</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Barcelona</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Spain</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                        <div class="TopTour-item">
+                            <div class="TopTour-lab"> <span>Indonesia</span> </div>
+                            <div class="TopTour-img">
+                                <img src="./img/TopTour1.png" alt="">
+                            </div>
+                            <div class="TopTour-detail">
+                                <div class="TopTour-detail-place">Bali</div>
+                                <div class="TopTour-detail-pop">10 Popular Places</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="explore">
+                    <div class="explore-header">
+                        <div class="explore-header-heading">
+                            Explore The World
+                        </div>
+                        <div class="explore-header-subheading">
+                            10,788 beautiful places to go
+                        </div>
+                    </div>
+                    <div class="explore-body">
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore1.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore2.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore3.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore4.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore1.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                        <div class="explore-body-item">
+                            <div class="explore-body-item-img">
+                                <img src="./img/explore2.png" alt="">
+                            </div>
+                            <div class="explore-body-item-content">
+                                <div class="explore-body-item-content-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.91</span>
+                                    <span>(147)</span>
+                                </div>
+                                <div class="explore-body-item-content-name">
+                                    <span>Comfort Space</span>
+                                    <span class="explore-body-item-content-price">
+                                        $210
+                                    </span>
+                                </div>
+                                <div class="explore-body-item-content-detail">
+                                    <span>1.2 km to Town Center</span>
+                                </div>
+                                <div class="explore-body-item-content-add">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>Turkey, Mamaris</span><br />
+                                    <i class="fa-solid fa-building"></i>
+                                    Rooms available: 375
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trend">
+            <div class="trend-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="trend-header-heading">
+                            Trending cites
+                        </div>
+                        <div class="trend-header-subheading">
+                            The most searched for cities on TripGuide
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="trend-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend1.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    Manila
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend3.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    Frankfurt main
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend5.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    Stockholm
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend2.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    San Francisco
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend4.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    Washington
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="trend-body-item">
+                                    <div class="row" >
+                                        <div class="col-lg-4 col-sm-6">
+                                            <div class="trend-body-item-img">
+                                                <img src="./img/trend6.png"  alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-sm-6">
+                                            <div class="trend-body-item-detail">
+                                                <div class="trend-body-item-detail-name">
+                                                    Seattle
+                                                </div>
+                                                <div class="explore-body-item-content-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <span>4.91</span>
+                                                    <span>(147)</span>
+                                                </div>
+                                                <div class="trend-body-item-detail-price">
+                                                    $250.00 <span>/night</span>
+                                                </div>
+                                                <buttton class="trend-body-item-detail-btn">
+                                                    Book Now
+                                                </buttton>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="travel">
+            <div class="container">
+                <div class="travel-header">
+                    <div class="travel-header-heading">Travel Your Passion</div>
+                    <div class="travel-header-subheading">Most Brilliant reasons Entrada should be your one-stop-shop!</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="travel-body">
+                    <div class="travel-body-item">
+                        <div class="travel-body-item-img">
+                            <div class="travel-body-item-img-box">
+                                <img src="./img/travel1.png" alt="">
+                            </div>
+                            <div class="travel-body-item-detail">
+                                <div class="travel-body-item-name">Beach Hobby</div>
+                                <div class="travel-body-item-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                        <span>(122 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="travel-body-item">
+                        <div class="travel-body-item-img">
+                            <div class="travel-body-item-img-box">
+                                <img src="./img/travel2.png" alt="">
+                            </div>
+                            <div class="travel-body-item-detail">
+                                <div class="travel-body-item-name">City Tours</div>
+                                <div class="travel-body-item-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                        <span>(122 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="travel-body-item">
+                        <div class="travel-body-item-img">
+                            <div class="travel-body-item-img-box">
+                                <img src="./img/travel3.png" alt="">
+                            </div>
+                            <div class="travel-body-item-detail">
+                                <div class="travel-body-item-name">Hiking Trips</div>
+                                <div class="travel-body-item-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                        <span>(122 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="travel-body-item">
+                        <div class="travel-body-item-img">
+                            <div class="travel-body-item-img-box">
+                                <img src="./img/travel4.png" alt="">
+                            </div>
+                            <div class="travel-body-item-detail">
+                                <div class="travel-body-item-name">Sports Trips</div>
+                                <div class="travel-body-item-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                        <span>4.8</span>
+                                        <span>(122 reviews)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="offer">
+            <div class="container">
+                <div class="offer-main row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="offer-main-left">
+                                <div class="offer-main-left-title">
+                                    Get our pro offers 
+                                </div>
+                                <div class="offer-main-left-subtitle">
+                                    Create a visual identity for your company, and an overall brand
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="offer-main-right">
+                                <div class="offer-main-right-field">
+                                    <input type="text" class="offer-main-right-field-input" placeholder="Type your email here">
+                                    <input type="submit" class="offer-main-right-field-btn" value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-12 order-4">
+                            <div class="header-left">
+                                <img src="./img/Subtract.png" alt="TripGuide" class="header-logo">
+                                <span>TripGuide</span>
+                            </div>
+                            <p>
+                                This is the team that specializes in
+                                making sure in the find it a 
+                                your interior looks cool
+                            </p>
+    
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="footer-services">
+                                <h5>Services</h5>
+                                <ul>
+                                    <li>
+                                        <a href="">Travel Booking</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Flight Booking</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Car Booking</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Fivestar Hotel</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Traveling</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="footer-support">
+                                <h5>Support</h5>
+                                <ul>
+                                    <li>
+                                        <a href="">Account</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Legal</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Terms & Condition</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-12">
+                            <div class="footer-business">
+                                <h5>Business</h5>
+                                <ul>
+                                    <li>
+                                        <a href="">Success</a>
+                                    </li>
+                                    <li>
+                                        <a href="">About Locato</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Information</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Travel Guide</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

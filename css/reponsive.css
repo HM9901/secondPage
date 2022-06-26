@@ -1,0 +1,154 @@
+@media screen and (max-width: 739px) {
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .header {
+    width: unset;
+  }
+  .header-top {
+    padding: 0 20px;
+  }
+  .header-language {
+    padding: 0;
+  }
+  .header-notify {
+    margin: 0 18px;
+  }
+  .header-notify svg {
+    margin-left: 0;
+  }
+  .header-language {
+    margin-left: 10px;
+  }
+  .header-profile svg, .header-name {
+    display: none;
+  }
+
+  .slider {
+    background-size: 191%;
+    background-position: 56% 70%;
+    padding-top: 100%;
+  }
+  .slider-title {
+    font-size: 65px;
+    line-height: 72px;
+    width: 70%;
+  }
+
+  .search-bar {
+    padding: 22px 28px !important;
+  }
+  .search-bar-top {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .search-bar-top-left {
+    border-bottom: 1px solid #e7ecf3;
+    padding-bottom: 20px;
+  }
+  .search-bar-top-right {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .search-bar-section {
+    margin: 0;
+    font-size: 27px;
+  }
+  .search-bar-label-icon {
+    display: none;
+  }
+  .search-bar-bottom-sec {
+    padding: 5px 0;
+    display: block;
+    margin: 0 -5px;
+  }
+  .search-bar-opt {
+    padding: 0 7px;
+  }
+  .search-bar-btn {
+    margin-top: 12px;
+    font-size: 30px;
+    padding: 16px 42px;
+  }
+
+  .place-title {
+    padding: 0 52px;
+    line-height: 62px;
+  }
+  .place-description {
+    width: 100%;
+    font-size: 27px;
+    line-height: 30px;
+    padding: 0 64px 30px;
+  }
+  .place-item {
+    width: calc(50% - 30px) !important;
+    padding: 30px 25px !important;
+    text-align: center;
+  }
+  .place-item h6, .place-item p {
+    text-align: center;
+  }
+
+  .Feature-header {
+    text-align: center;
+  }
+  .explore-body-item {
+    width: 5% !important;
+    margin: 0 5px;
+  }
+
+  .travel-header-heading, .travel-header-subheading {
+    text-align: center;
+  }
+  .travel-body-item {
+    width: 330px !important;
+  }
+  .travel-body-item-img-box::after {
+    width: 81.5%;
+  }
+
+  .offer-main {
+    padding: 0 28px;
+  }
+  .offer-main-left-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .offer-main-left-subtitle {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+  }
+  .offer-main-right-field-input {
+    width: 468px;
+    height: 73px;
+  }
+
+  .footer {
+    padding-top: 125px;
+  }
+  .footer-content {
+    padding: 0;
+  }
+  .footer-content .header-left {
+    padding-top: 15px;
+  }
+  .footer-content p {
+    display: none;
+  }
+  .footer-services, .footer-support, .footer-business {
+    float: left;
+    border-bottom: 1px solid #e7ecf3;
+    width: 100%;
+  }
+  .footer-services h5, .footer-support h5, .footer-business h5 {
+    padding-bottom: 10px;
+    padding-top: 15px;
+  }
+}
+
+/*# sourceMappingURL=reponsive.css.map */
